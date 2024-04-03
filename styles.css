@@ -1,0 +1,59 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face {
+    font-family: Work sans italic;
+    src: url(./assets/fonts/WorkSans-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Work sans;
+    src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+.backgroundImg{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0%;
+    position: absolute;
+}
+
+body{
+    background-color: hsl(275, 100%, 97%);
+    margin: 0;
+    display: block;
+}
+
+h1{
+    font-family: 'Work sans';
+    display: flex;
+    font-size: 50px;
+    margin-left: 5%;
+    color: hsl(292, 42%, 14%);
+}
+
+h2{
+    font-family: 'Work sans';
+    font-size: 16px;
+    margin-left: 5%;
+    color: hsl(292, 42%, 14%);
+}
+
+p{
+    font-family: 'Work sans';
+    font-size: 16px;
+    margin-left: 5%;
+}
+
+.textBackground{
+    background-color: white;
+    margin-top: auto;
+    margin-left:35%;
+    margin-right: auto;
+    max-width: 600px;
+    border-radius: 25px;
+    margin-bottom: 10%;
+    position:relative;
+}
+
